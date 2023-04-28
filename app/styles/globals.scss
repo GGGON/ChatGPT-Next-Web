@@ -1,6 +1,13 @@
 @import "./animation.scss";
 @import "./window.scss";
-
+.beian{
+  font-size: 10px;
+  color:rgb(187, 187, 187);
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 43%;
+}
 @mixin light {
   --theme: light;
 
