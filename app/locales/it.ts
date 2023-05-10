@@ -69,8 +69,8 @@ const it: LocaleType = {
       ConfirmClearAll: "Sei sicuro vuoi cancellare tutte le chat?",
     },
     Lang: {
-      Name: "Lingue",
-      All: "All Languages",
+      Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
+      All: "Tutte le lingue",
       Options: {
         cn: "简体中文",
         en: "English",
@@ -80,6 +80,8 @@ const it: LocaleType = {
         tr: "Türkçe",
         jp: "日本語",
         de: "Deutsch",
+        vi: "Vietnamese",
+        ru: "Русский",
       },
     },
     Avatar: "Avatar",
@@ -119,6 +121,9 @@ const it: LocaleType = {
         Title: "Prompt List",
         Add: "Add One",
         Search: "Search Prompts",
+      },
+      EditModal: {
+        Title: "Edit Prompt",
       },
     },
     HistoryCount: {
@@ -227,6 +232,14 @@ const it: LocaleType = {
     More: "Find More",
     NotShow: "Not Show Again",
     ConfirmNoShow: "Confirm to disable？You can enable it in settings later.",
+  },
+
+  UI: {
+    Confirm: "Confirm",
+    Cancel: "Cancel",
+    Close: "Close",
+    Create: "Create",
+    Edit: "Edit",
   },
 };
 
